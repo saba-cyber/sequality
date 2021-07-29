@@ -18,7 +18,8 @@ public class Calculate {
   }
 
   public double ave1to10() {
-    return new Calculate().sum1to10() / 10;
+    double sum = new Calculate().sum1to10();
+    return sum / 10.0;
   }
 
   public int oddsum() {
